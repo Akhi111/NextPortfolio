@@ -1,4 +1,4 @@
-# Premium 3D Developer Portfolio (Apple Liquid Glass UI)
+# Developer Portfolio
 
 A futuristic, high-performance personal developer portfolio built with **Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, and Three.js (React Three Fiber & Drei)**.
 
