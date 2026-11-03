@@ -186,5 +186,5 @@ Follow these steps to deploy your portfolio to Vercel:
 ---
 
 ## 📄 License
-MIT &copy; Alex Daniels
+MIT &copy; Akhil Acharekar
 
