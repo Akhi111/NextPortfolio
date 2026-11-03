@@ -236,7 +236,7 @@ export function Contact() {
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
-                    Transmission Successful
+                    Email sent successfully
                   </h3>
                   <p className="text-sm text-slate-600 dark:text-slate-300 max-w-md">
                     {statusMessage.text}
@@ -408,9 +408,7 @@ export function Contact() {
                       }
                       iconPosition="right"
                     >
-                      {isSubmitting
-                        ? "Encrypting & Transmitting..."
-                        : "Send Secure Message"}
+                      {isSubmitting ? "Sending Email..." : "Send Email"}
                     </GlassButton>
                   </div>
                 </form>
