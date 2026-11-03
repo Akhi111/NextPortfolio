@@ -2,7 +2,13 @@
 
 import React, { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Briefcase, Calendar, MapPin, CheckCircle, Sparkles } from "lucide-react";
+import {
+  Briefcase,
+  Calendar,
+  MapPin,
+  CheckCircle,
+  Sparkles,
+} from "lucide-react";
 import { experienceData } from "@/data/experience";
 import { GlassCard } from "../ui/GlassCard";
 
@@ -20,7 +26,10 @@ export function Experience() {
   });
 
   return (
-    <section id="experience" className="relative py-24 px-4 sm:px-6 lg:px-12 max-w-6xl mx-auto">
+    <section
+      id="experience"
+      className="relative py-24 px-4 sm:px-6 lg:px-12 max-w-6xl mx-auto"
+    >
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <motion.div
@@ -51,7 +60,8 @@ export function Experience() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed"
         >
-          Proven track record leading engineering initiatives, scaling WebGL 3D systems, and delivering mission-critical applications.
+          Proven track record leading engineering initiatives, and delivering
+          mission-critical applications.
         </motion.p>
       </div>
 
@@ -128,7 +138,10 @@ export function Experience() {
                     {/* Key Achievements Bullet points */}
                     <div className="space-y-2 mb-5">
                       {item.achievements.map((ach, aIdx) => (
-                        <div key={aIdx} className="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-normal">
+                        <div
+                          key={aIdx}
+                          className="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-normal"
+                        >
                           <CheckCircle className="w-3.5 h-3.5 text-sky-500 shrink-0 mt-0.5" />
                           <span>{ach}</span>
                         </div>
