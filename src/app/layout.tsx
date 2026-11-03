@@ -35,24 +35,24 @@ export const metadata: Metadata = {
     "TypeScript",
     "Tailwind CSS",
   ],
-  authors: [{ name: "Alex Daniels" }],
-  creator: "Alex Daniels",
-  metadataBase: new URL("https://portfolio.dev"),
+  authors: [{ name: "Akhil Acharekar" }],
+  creator: "Akhil Acharekar",
+  metadataBase: new URL("https://next-portfolio-ashen-kappa.vercel.app/"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://portfolio.dev",
-    title: "Alex Daniels | Senior Full-Stack & 3D Web Architect",
+    url: "https://next-portfolio-ashen-kappa.vercel.app/",
+    title: "Akhil Acharekar | Senior Full-Stack Developer",
     description:
       "Futuristic developer portfolio built with Next.js, Three.js, and Apple Liquid Glass design language.",
-    siteName: "Alex Daniels Portfolio",
+    siteName: "Akhil Acharekar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Daniels | Senior Full-Stack & 3D Web Architect",
+    title: "Akhil Acharekar | Senior Full-Stack Developer",
     description:
       "Futuristic developer portfolio built with Next.js, Three.js, and Apple Liquid Glass design language.",
-    creator: "@alexdaniels",
+    creator: "@akhilacharekar",
   },
   robots: {
     index: true,
