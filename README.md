@@ -9,10 +9,6 @@ Designed with an **Apple Liquid Glass** visual language—featuring translucent 
 ## 🌟 Key Features
 
 - **Apple Liquid Glass Aesthetics**: Refined glassmorphism cards, backdrop blurs (`blur-xl` / `blur-2xl`), hairline semi-transparent borders, and soft glowing accents.
-- **Interactive 3D Three.js Scene**:
-  - Floating translucent liquid glass sphere with dynamic refractive distortion.
-  - Dual orbiting metallic and iridescent rings.
-  - Physics-based mouse tracking and auto-rotation with fallbacks for non-WebGL devices.
 - **Responsive Floating Navigation**:
   - Centered liquid glass pill with active section tracking via Framer Motion's `layoutId`.
   - Animated mobile menu drawer with hamburger toggle.
